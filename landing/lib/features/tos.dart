@@ -8,8 +8,9 @@ class Tos extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: SingleChildScrollView(
-          child: SizedBox(
+          child: Container(
             height: MediaQuery.of(context).size.height,
+            color: Colors.white,
             child: Padding(
               padding:
                   const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
